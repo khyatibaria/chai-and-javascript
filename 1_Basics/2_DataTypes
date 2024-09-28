@@ -1,0 +1,18 @@
+"use strict" // using this statements will apply all the newer version rules of js
+
+// alert(3+3) we are using node js and not browser so this will not work.
+
+//code readability is very important
+
+/* DataTypes in Js
+
+1. number
+2. bigInt
+3. string -> ""
+4. boolean -> true/false
+5. null -> standalone valuse used when we have to purposely save empty value for a variable
+6. undefined -> when no value is assigned to variable
+7. symbol -> specially used to check the uniquesness
+8. objects
+
+*/
