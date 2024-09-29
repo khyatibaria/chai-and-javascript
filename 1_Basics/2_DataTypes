@@ -16,3 +16,33 @@
 8. objects
 
 */
+
+/* primitive datatypes 
+7 types:- String, Number, Boolean, null, BigInt, undefined, Symbol
+memory used to save these types of variable is stack memory
+it is called by vaule
+*/ 
+let score = 100;
+const scoreValue = 200;
+const isLoggedIn = false;
+
+const id = Symbol('123');
+const anotherId = Symbol('123');
+
+console.log(id === anotherId);
+
+/* Non Premitive (Reference)
+3 types:- Arrays, Objects, Functions
+memory used to save these types of variable is heap memory
+it is called by refernce
+*/
+
+const fruits = ['apple','mango','pineapple'];
+const myObj ={
+    name:"Khyati",
+    age:"25"
+}
+
+const myFuction = function(){
+    console.log("hey i am printing my function")
+}
